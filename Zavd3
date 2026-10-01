@@ -1,0 +1,12 @@
+def mnozhyna():
+
+    x = {"c", "d"}
+    y = {"a", "e", "i", "o", "u", "y"}
+
+    z = x | y
+
+    print("Множина x:", x)
+    print("Множина y:", y)
+    print("Результат:", z)
+
+mnozhyna()
