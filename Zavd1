@@ -1,0 +1,15 @@
+def text():
+
+    rechena = input("Введіть речення: ")
+
+    words = rechena.split()
+
+    while len(words) < 7:
+        print("У реченні повинно бути не менше 7 слів.")
+        rechena = input("Введіть речення ще раз: ")
+        words = rechena.split()
+
+    for word in words:
+        if word.lower().startswith("к"):
+            print("Слово:", word)
+text()
