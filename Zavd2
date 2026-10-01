@@ -1,0 +1,13 @@
+def spisok():
+
+    numbers = input("Введіть елементи списку через пробіл: ").split()
+
+    n = int(input("Введіть номер елемента для розбиття: "))
+
+    list1 = numbers[:n]
+    list2 = numbers[n:]
+
+    print("Перший список:", *list1)
+    print("Другий список:", *list2)
+
+spisok()
